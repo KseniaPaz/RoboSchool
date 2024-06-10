@@ -68,6 +68,7 @@ summary::-webkit-details-marker {
     color: #FFFFFF;
 }
 
+
 .top {
     margin-top: 84px;
     display: flex;
@@ -387,6 +388,9 @@ summary::-webkit-details-marker {
         }
 
         &_button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 280px;
             height: 79px;
             border:none;
@@ -395,7 +399,6 @@ summary::-webkit-details-marker {
             font-size: 18px;
             font-weight: 400;
             line-height: 28.8px;
-            text-align: center;
             color: #FFFFFF;
         }
     }
@@ -527,15 +530,3 @@ summary::-webkit-details-marker {
     color: #FFFFFF;
 }
 
-
-@media (max-width: 1024px) {
-    html {
-        overflow-x: hidden;
-    }
-
-    .center {
-        padding-left: calc(50% - 368px);
-        padding-right: calc(50% - 368px);
-    }
-
-}
