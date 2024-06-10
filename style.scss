@@ -460,7 +460,7 @@ summary::-webkit-details-marker {
 
   }
 
-  .forma {
+.forma {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -490,9 +490,40 @@ summary::-webkit-details-marker {
         text-align: center;
         color: #FFFFFF;
     }
-
-  }
-
+}
 
 
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #141024;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+
+    &__span {
+        font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.phone-number {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: right;
+    color: #FFFFFF;
+}
 
