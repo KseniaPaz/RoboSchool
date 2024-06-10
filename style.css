@@ -469,4 +469,14 @@ summary::-webkit-details-marker {
   line-height: 48px;
   text-align: right;
   color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
 }/*# sourceMappingURL=style.css.map */
